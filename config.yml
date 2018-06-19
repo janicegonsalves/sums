@@ -5,7 +5,7 @@ jobs:
       - image: circleci/java:8
     steps:
       - checkout
-      - run: echo package complete;
+      - run: echo "package complete;
 import java.util.Scanner;
 
 public class Sum {
@@ -29,4 +29,4 @@ public static int Total(int x, int y)
 	int s;
 	s=x+y;
 	return s;
-}}
+}}"
